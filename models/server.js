@@ -20,7 +20,7 @@ middleware(){
     this.app.use( cors() );
 
     //Parceo y lectura del body
-    this.app.use( express.json(  ));
+    this.app.use( express.json() );
 
 
     //directorio público
